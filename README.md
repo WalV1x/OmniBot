@@ -12,7 +12,7 @@ Notre projet est en cours de développement pour vous offrir une expérience ext
 
 Vos contributions, retours et signalements de bogues sont essentiels pour nous ! Explorez [notre page d'issues](https://github.com/WalV1x/OmniSocial/issues) pour découvrir comment vous pouvez nous aider !
 
-Avant de plonger dans l'action, faites un tour sur [notre serveur Discord]() ! Nous sommes là pour vous assister en cas de besoin 🙂
+Avant de plonger dans l'action, faites un tour sur [notre serveur Discord](https://discord.gg/z7B2RTqqsG) ! Nous sommes là pour vous assister en cas de besoin 🙂
 
 Un immense merci à tous ceux qui contribuent à rendre ce projet exceptionnel ❤
 
