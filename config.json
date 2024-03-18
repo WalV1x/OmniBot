@@ -1,0 +1,15 @@
+{
+    "prefix": "s!",
+
+    "monitored_youtube_channels": [],
+    "monitored_twitch_channels": [],
+
+    "youtube_api_key": "AIzaSyD94CKlVnsWOn9DbMy2vswiDoUEDZ53XE0",
+    "twitch_client_id": "YOUR_TWITCH_CLIENT_ID",
+
+    "youtube_notification_channel": null,
+    "twitch_notification_channel": null,
+
+    "timers_notification_channel": null,
+    "timers": []
+}

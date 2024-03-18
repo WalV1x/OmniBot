@@ -1,0 +1,10 @@
+[2024-03-18 21:59:20] [INFO    ] discord_bot: Logged in as OmniSocial
+[2024-03-18 21:59:20] [INFO    ] discord_bot: discord.py API version: 2.3.2
+[2024-03-18 21:59:20] [INFO    ] discord_bot: Python version: 3.12.2
+[2024-03-18 21:59:20] [INFO    ] discord_bot: Running on: Windows 11 (nt)
+[2024-03-18 21:59:20] [INFO    ] discord_bot: Loaded extension 'help'
+[2024-03-18 21:59:20] [INFO    ] discord_bot: Loaded extension 'musicYoutube'
+[2024-03-18 21:59:20] [INFO    ] discord_bot: Loaded extension 'socialAlert'
+[2024-03-18 21:59:21] [INFO    ] discord_bot: Loaded extension 'socialNotifier'
+[2024-03-18 21:59:21] [INFO    ] discord_bot: Loaded extension 'template'
+[2024-03-18 21:59:21] [INFO    ] discord_bot: Loaded extension 'timer'

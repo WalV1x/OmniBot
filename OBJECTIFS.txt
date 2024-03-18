@@ -1,0 +1,8 @@
+Avoir des alertes YouTube et Twitch
+
+Musique Playback _ YouTube et Spotify
+
+Automation _ Timers, qui automatise l'envoie d'un message à une heure précise.
+
+
+https://green-bot.app/server/1218500674942406716
