@@ -12,6 +12,14 @@ Il y a un seul propriétaire pour ce projet, WalVix, qui contribue massivement �
 
 * [WalVix](https://github.com/WalV1x) (WalVix#0000)
 
+## 🤝 Contributing
+
+Vos contributions, retours et signalements de bugs sont les bienvenus ! N'hésitez pas à consulter [notre page d'issues](https://github.com/WalV1x/OmniSocial/issues) pour découvrir ce que vous pourriez faire !
+
+Avant de contribuer, nous vous recommandons de dire bonjour sur [notre serveur Discord]() ! Nous pouvons vous aider avec tout problème que vous pourriez rencontrer 🙂
+
+Un grand merci à tous ceux qui contribuent au projet ❤
+
 ## 📖 Communauté
 
 Rejoignez la communauté ! OmniSocial est en développement continu, soutenu par une communauté active qui produit de nouveaux contenus (cogs/plugins) pour que tout le monde en profite. De nouvelles fonctionnalités sont ajoutées en permanence. Si vous ne trouvez pas le cog que vous recherchez, consultez notre guide sur la création de vos propres cogs !
