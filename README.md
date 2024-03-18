@@ -1,16 +1,15 @@
 
 <div style="text-align:center;">
 
-### **This project is currently in development!**
+### **Ce projet est actuellement en cours de développement !**
 
+🌟 Nouvelle passionnante ! Notre projet est actuellement en développement, se préparant à vous offrir quelque chose d'extraordinaire ! Restez à l'affût des mises à jour et des aperçus en cours de route ! 🚀
 </div>
 
 
-If you would like to be notified when we commit, please watch this repository and join our Discord server.
+### **👋 | About Us**
 
-### **👋 | About**
-
-OmniSocial.py is an open-source Discord bot that aims to be as customizable as possible as well as providing essential tools for server administrators to run their Discord server!
+Plongez dans l'univers d'OmniSocial.py : le bot Discord open-source ultime, taillé pour la personnalisation totale et équipé d'outils indispensables pour les admins de serveurs Discord ! Rejoignez-nous sur [Discord]() et suivez nos mises à jour. Prêt à tester ? Invitez-le dès maintenant sur votre serveur en un clic !
 
 ### 🚧 **Prerequisites**
 
