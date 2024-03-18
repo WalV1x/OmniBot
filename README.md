@@ -2,7 +2,7 @@
 
 # Vue d'ensemble
 
-Plongez dans l'univers captivant d'OmniSocial.py : le bot Discord open-source révolutionnaire, conçu pour une personnalisation sans limite et doté d'outils indispensables pour les administrateurs de serveurs Discord ! Rejoignez dès maintenant notre communauté florissante sur [Discord]() et soyez parmi les premiers à profiter de nos mises à jour sensationnelles.
+Plongez dans l'univers captivant d'OmniSocial.py : le bot Discord open-source révolutionnaire, conçu pour une personnalisation sans limite et doté d'outils indispensables pour les administrateurs de serveurs Discord ! Rejoignez dès maintenant notre communauté florissante sur [Discord](https://discord.gg/z7B2RTqqsG) et soyez parmi les premiers à profiter de nos mises à jour sensationnelles.
 
 ## ✨ Dernières Innovations !
 
