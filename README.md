@@ -1,5 +1,11 @@
-# OmniSocial
-This project is currently in development!
+
+<div style="text-align:center;">
+
+### **This project is currently in development!**
+
+</div>
+
+
 If you would like to be notified when we commit, please watch this repository and join our Discord server.
 
 ### **👋 | About**
