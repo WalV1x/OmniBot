@@ -1,4 +1,4 @@
-![banner](https://user-images.githubusercontent.com/43201383/72987537-89830a80-3e25-11ea-95ef-ecfa0afcff7e.png)
+![banner]()
 
 # Vue d'ensemble
 
