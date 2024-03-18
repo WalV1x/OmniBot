@@ -1,4 +1,4 @@
-![banner]()
+![banner](https://github.com/WalV1x/OmniSocial/blob/main/img/GITHUB.jpg)
 
 # Vue d'ensemble
 
