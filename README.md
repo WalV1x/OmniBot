@@ -1,31 +1,31 @@
 # Vue d'ensemble
-Plongez dans l'univers d'OmniSocial.py : le bot Discord open-source ultime, taillé pour la personnalisation totale et équipé d'outils indispensables pour les admins de serveurs Discord ! Rejoignez-nous sur [Discord]() et suivez nos mises à jour. Prêt à tester ? Invitez-le dès maintenant sur votre serveur en un clic !
 
+Plongez dans l'univers captivant d'OmniSocial.py : le bot Discord open-source révolutionnaire, conçu pour une personnalisation sans limite et doté d'outils indispensables pour les administrateurs de serveurs Discord ! Rejoignez dès maintenant notre communauté florissante sur [Discord]() et soyez parmi les premiers à profiter de nos mises à jour sensationnelles.
 
-## ✨ Les dernières mises à jour
+## ✨ Dernières Innovations !
 
-Notre projet est actuellement en développement, se préparant à vous offrir quelque chose d'extraordinaire ! Restez à l'affût des mises à jour et des aperçus en cours de route !
+Notre projet est en plein essor, en cours de développement pour vous offrir une expérience extraordinaire ! Restez à l'affût des dernières mises à jour et des aperçus exclusifs tout au long de notre parcours !
 
-## 🤝  Participez !
+## 🤝  Participez à l'Action !
 
-Vos contributions, retours et signalements de bugs sont les bienvenus ! N'hésitez pas à consulter [notre page d'issues](https://github.com/WalV1x/OmniSocial/issues) pour découvrir ce que vous pourriez faire !
+Vos contributions, retours et signalements de bogues sont essentiels pour nous ! Explorez [notre page d'issues](https://github.com/WalV1x/OmniSocial/issues) pour découvrir comment vous pouvez nous aider !
 
-Avant de contribuer, nous vous recommandons de dire bonjour sur [notre serveur Discord]() ! Nous pouvons vous aider avec tout problème que vous pourriez rencontrer 🙂
+Avant de plonger dans l'action, faites un tour sur [notre serveur Discord]() ! Nous sommes là pour vous assister en cas de besoin 🙂
 
-Un grand merci à tous ceux qui contribuent au projet ❤
+Un immense merci à tous ceux qui contribuent à rendre ce projet exceptionnel ❤
 
-## 📖 Communauté
+## 📖 Rejoignez la Communauté !
 
-Rejoignez la communauté ! OmniSocial est en développement continu, soutenu par une communauté active qui produit de nouveaux contenus (cogs/plugins) pour que tout le monde en profite. De nouvelles fonctionnalités sont ajoutées en permanence. Si vous ne trouvez pas le cog que vous recherchez, consultez notre guide sur la création de vos propres cogs !
+Intégrez notre communauté dynamique ! OmniSocial est en constante évolution grâce à une communauté active qui crée continuellement de nouveaux contenus (cogs/plugins) pour le bénéfice de tous. De nouvelles fonctionnalités sont ajoutées en permanence.
 
-Rejoignez-nous sur [notre serveur Discord officiel]() !
+Rejoignez-nous sur [notre serveur Discord officiel]() dès maintenant !
 
-## 💼 Propriétaire
+## 💼 Créateur
 
-Il y a un seul propriétaire pour ce projet, WalVix, qui contribue massivement à son fonctionnement. Vous pouvez trouver le lien vers son profil GitHub ci-dessous :
+Ce projet est le fruit du travail acharné de WalVix, l'unique propriétaire qui y consacre énormément d'énergie. Vous pouvez découvrir son profil GitHub via le lien suivant :
 
 * [WalVix](https://github.com/WalV1x) (WalVix#0000)
 
 ## 📸 | Screenshots
 
-Bientôt
+Bientôt disponibles!
