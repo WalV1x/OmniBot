@@ -4,7 +4,7 @@ Plongez dans l'univers captivant d'OmniSocial.py : le bot Discord open-source r�
 
 ## ✨ Dernières Innovations !
 
-Notre projet est en plein essor, en cours de développement pour vous offrir une expérience extraordinaire ! Restez à l'affût des dernières mises à jour et des aperçus exclusifs tout au long de notre parcours !
+Notre projet est en cours de développement pour vous offrir une expérience extraordinaire ! Restez à l'affût des dernières mises à jour et des aperçus exclusifs tout au long de notre parcours !
 
 ## 🤝  Participez à l'Action !
 
@@ -16,9 +16,7 @@ Un immense merci à tous ceux qui contribuent à rendre ce projet exceptionnel �
 
 ## 📖 Rejoignez la Communauté !
 
-Intégrez notre communauté dynamique ! OmniSocial est en constante évolution grâce à une communauté active qui crée continuellement de nouveaux contenus (cogs/plugins) pour le bénéfice de tous. De nouvelles fonctionnalités sont ajoutées en permanence.
-
-Rejoignez-nous sur [notre serveur Discord officiel]() dès maintenant !
+Intégrez notre communauté dynamique ! OmniSocial est en constante évolution grâce à une communauté active qui crée continuellement de nouveaux contenus (cogs/plugins) pour le bénéfice de tous.
 
 ## 💼 Créateur
 
