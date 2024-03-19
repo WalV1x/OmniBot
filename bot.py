@@ -45,6 +45,8 @@ class LoggingFormatter(logging.Formatter):
         logging.CRITICAL: red + bold,
     }
 
+
+
     # Méthode pour formater les logs
     def format(self, record):
         log_color = self.COLORS[record.levelno]
@@ -108,7 +110,7 @@ class DiscordBot(commands.Bot):
         """
         Setup the status task of the bot.
         """
-        statuses = ["s!help | OmniBot.app"]  # Add the statuses you want to display
+        statuses = ["s!help | Dev"]  # Add the statuses you want to display
         await self.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=random.choice(statuses)))
 
     @status_task.before_loop
