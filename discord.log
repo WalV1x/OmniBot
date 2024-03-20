@@ -1,15 +1,14 @@
-[2024-03-19 20:35:49] [INFO    ] discord_bot: Logged in as OmniSocial
-[2024-03-19 20:35:49] [INFO    ] discord_bot: discord.py API version: 2.3.2
-[2024-03-19 20:35:49] [INFO    ] discord_bot: Python version: 3.12.2
-[2024-03-19 20:35:49] [INFO    ] discord_bot: Running on: Windows 11 (nt)
-[2024-03-19 20:35:49] [INFO    ] discord_bot: Loaded extension 'automated_messages'
-[2024-03-19 20:35:49] [INFO    ] discord_bot: Loaded extension 'captchabot'
-[2024-03-19 20:35:49] [ERROR   ] discord_bot: Failed to load extension events
-ExtensionFailed: Extension 'cogs.events' raised an error: TypeError: object NoneType can't be used in 'await' expression
-[2024-03-19 20:35:49] [INFO    ] discord_bot: Loaded extension 'helpers'
-[2024-03-19 20:35:49] [ERROR   ] discord_bot: Failed to load extension info
-ExtensionFailed: Extension 'cogs.info' raised an error: TypeError: object NoneType can't be used in 'await' expression
-[2024-03-19 20:35:49] [INFO    ] discord_bot: Loaded extension 'logs'
-[2024-03-19 20:35:49] [INFO    ] discord_bot: Loaded extension 'musicYoutube'
-[2024-03-19 20:35:49] [INFO    ] discord_bot: Loaded extension 'socialAlert'
-[2024-03-19 20:35:49] [INFO    ] discord_bot: Loaded extension 'socialNotifier'
+[2024-03-20 22:12:51] [INFO    ] discord_bot: Logged in as OmniBot
+[2024-03-20 22:12:51] [INFO    ] discord_bot: discord.py API version: 2.3.2
+[2024-03-20 22:12:51] [INFO    ] discord_bot: Python version: 3.12.2
+[2024-03-20 22:12:51] [INFO    ] discord_bot: Running on: Windows 11 (nt)
+[2024-03-20 22:12:51] [INFO    ] discord_bot: Loaded extension 'automated_messages'
+[2024-03-20 22:12:51] [INFO    ] discord_bot: Loaded extension 'helpers'
+[2024-03-20 22:12:51] [INFO    ] discord_bot: Loaded extension 'lockChannel'
+[2024-03-20 22:12:51] [INFO    ] discord_bot: Loaded extension 'logs'
+[2024-03-20 22:12:51] [INFO    ] discord_bot: Loaded extension 'moderation'
+[2024-03-20 22:12:52] [INFO    ] discord_bot: Loaded extension 'musicYoutube'
+[2024-03-20 22:12:52] [INFO    ] discord_bot: Loaded extension 'socialAlert'
+[2024-03-20 22:12:52] [INFO    ] discord_bot: Loaded extension 'socialNotifier'
+[2024-03-20 22:12:52] [INFO    ] discord_bot: Loaded extension 'unlockChannel'
+[2024-03-20 22:12:52] [INFO    ] discord_bot: Loaded extension 'userinfo'

@@ -1,17 +1,13 @@
 {
-    "prefix": "s!",
-
-    "monitored_youtube_channels": [],
-    "monitored_twitch_channels": [],
-
+    "prefix": "!",
     "youtube_api_key": "YOUR_YOUTUBE_CLIENT_ID",
     "twitch_client_id": "YOUR_TWITCH_CLIENT_ID",
-
+    "monitored_youtube_channels": [],
+    "monitored_twitch_channels": [],
     "youtube_notification_channel": null,
     "twitch_notification_channel": null,
-
     "timers_notification_channel": null,
-    "timers": []
-
-  "log_channel": null
+    "timers": [],
+    "log_channel": 1219727570828787742,
+    "locked_channels": []
 }

@@ -112,7 +112,7 @@ class DiscordBot(commands.Bot):
         """
         Setup the status task of the bot.
         """
-        statuses = ["s!help | Dev"]  # Add the statuses you want to display
+        statuses = ["!help | Dev"]  # Add the statuses you want to display
         await self.change_presence(
             activity=discord.Activity(type=discord.ActivityType.watching, name=random.choice(statuses)))
 
