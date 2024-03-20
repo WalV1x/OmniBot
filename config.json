@@ -12,4 +12,6 @@
 
     "timers_notification_channel": null,
     "timers": []
+
+  "log_channel": null
 }
