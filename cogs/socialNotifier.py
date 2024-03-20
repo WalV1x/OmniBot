@@ -1,8 +1,8 @@
-import discord
-from discord.ext import commands, tasks
 import json
-from googleapiclient.discovery import build
+
 import requests
+from discord.ext import commands, tasks
+from googleapiclient.discovery import build
 
 # Load configuration from config.json
 with open("config.json", "r") as f:
@@ -10,6 +10,7 @@ with open("config.json", "r") as f:
 
 # YouTube API setup
 youtube = build("youtube", "v3", developerKey=config["youtube_api_key"])
+
 
 class YouTubeNotifier(commands.Cog):
     def __init__(self, bot):

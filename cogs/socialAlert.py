@@ -1,7 +1,8 @@
-import discord
-from discord.ext import commands
 import json
 import re
+
+from discord.ext import commands
+
 
 class SocialAlert(commands.Cog, name="SocialAlert"):
     def __init__(self, bot) -> None:
@@ -161,6 +162,7 @@ class SocialAlert(commands.Cog, name="SocialAlert"):
             await ctx.send("Invalid action. Please use 'add', 'remove', 'set', or 'list'.")
 
         await self.write_config(config)
+
 
 async def setup(bot) -> None:
     await bot.add_cog(SocialAlert(bot))

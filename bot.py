@@ -1,4 +1,3 @@
-import json
 import logging
 import os
 import platform
@@ -9,6 +8,8 @@ import discord
 from discord.ext import commands, tasks
 from discord.ext.commands import Context
 from dotenv import load_dotenv
+
+import json
 
 # Vérification de l'existence du fichier de configuration
 if not os.path.isfile(f"{os.path.realpath(os.path.dirname(__file__))}/config.json"):
@@ -24,6 +25,7 @@ intents.guilds = True
 intents.voice_states = True
 intents.message_content = True
 intents.members = True
+
 
 # Définition d'une classe pour le formatage des logs
 class LoggingFormatter(logging.Formatter):
@@ -45,8 +47,6 @@ class LoggingFormatter(logging.Formatter):
         logging.CRITICAL: red + bold,
     }
 
-
-
     # Méthode pour formater les logs
     def format(self, record):
         log_color = self.COLORS[record.levelno]
@@ -57,6 +57,7 @@ class LoggingFormatter(logging.Formatter):
         format = format.replace("(green)", self.green + self.bold)
         formatter = logging.Formatter(format, "%Y-%m-%d %H:%M:%S", style="{")
         return formatter.format(record)
+
 
 # Configuration du logger
 logger = logging.getLogger("discord_bot")
@@ -76,6 +77,7 @@ file_handler.setFormatter(file_handler_formatter)
 # Ajout des handlers au logger
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
+
 
 # Classe principale du bot
 class DiscordBot(commands.Bot):
@@ -111,7 +113,8 @@ class DiscordBot(commands.Bot):
         Setup the status task of the bot.
         """
         statuses = ["s!help | Dev"]  # Add the statuses you want to display
-        await self.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=random.choice(statuses)))
+        await self.change_presence(
+            activity=discord.Activity(type=discord.ActivityType.watching, name=random.choice(statuses)))
 
     @status_task.before_loop
     async def before_status_task(self) -> None:
