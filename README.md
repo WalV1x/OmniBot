@@ -4,7 +4,7 @@
 
 Plongez dans l'univers captivant d'OmniSocial.py : le bot Discord open-source révolutionnaire, conçu pour une
 personnalisation sans limite et doté d'outils indispensables pour les administrateurs de serveurs Discord ! Rejoignez
-dès maintenant notre communauté florissante sur [Discord]() et soyez parmi les premiers à profiter de nos mises à jour
+dès maintenant notre communauté florissante sur [Discord](https://discord.gg/bCjmrbcA5y) et soyez parmi les premiers à profiter de nos mises à jour
 sensationnelles.
 
 ## ✨ Dernières Innovations !
@@ -18,7 +18,7 @@ Vos contributions, retours et signalements de bogues sont essentiels pour nous !
 Explorez [notre page d'issues](https://github.com/WalV1x/OmniSocial/issues) pour découvrir comment vous pouvez nous
 aider !
 
-Avant de plonger dans l'action, faites un tour sur [notre serveur Discord]() ! Nous sommes là pour vous assister en cas
+Avant de plonger dans l'action, faites un tour sur [notre serveur Discord](https://discord.gg/bCjmrbcA5y) !Nous sommes là pour vous assister en cas
 de besoin 🙂
 
 Un immense merci à tous ceux qui contribuent à rendre ce projet exceptionnel ❤
