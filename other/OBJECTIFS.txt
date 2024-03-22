@@ -8,3 +8,6 @@ Automation _ Timers, qui automatise l'envoie d'un message à une heure précise.
 https://green-bot.app/server/1218500674942406716
 
 https://github.com/Darkempire78/Raid-Protect-Discord-Bot/blob/master/Cogs/setup.py
+
+Tickets system :
+https://github.com/WebTheDev/TicketBot/tree/master
