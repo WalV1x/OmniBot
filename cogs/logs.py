@@ -1,9 +1,10 @@
 import json
 import re
+
 import discord
 from discord.ext import commands
 
-with open('config.json', 'r') as f:
+with open('config.json', 'r', encoding='utf-8') as f:
     config_data = json.load(f)
 
 
@@ -39,7 +40,8 @@ class Logs(commands.Cog, name="Logs"):
 
     @commands.Cog.listener()
     async def on_message_edit(self, before, after):
-        await self.send_log_embed(f'A message from {before.author.name} was edited: {before.content} -> {after.content}')
+        await self.send_log_embed(
+            f'A message from {before.author.name} was edited: {before.content} -> {after.content}')
 
     @commands.Cog.listener()
     async def on_member_update(self, before, after):

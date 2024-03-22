@@ -6,13 +6,13 @@ from discord.ext import commands
 
 # Load configuration from config.json
 def load_config():
-    with open('config.json', 'r') as f:
+    with open('config.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
 
 # Save configuration to config.json
 def save_config(config):
-    with open('config.json', 'w') as f:
+    with open('config.json', 'w', encoding='utf-8') as f:
         json.dump(config, f, indent=4)
 
 

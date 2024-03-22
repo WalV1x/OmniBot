@@ -5,7 +5,7 @@ from discord.ext import commands, tasks
 from googleapiclient.discovery import build
 
 # Load configuration from config.json
-with open("config.json", "r") as f:
+with open('config.json', 'r', encoding='utf-8') as f:
     config = json.load(f)
 
 # YouTube API setup
@@ -26,7 +26,7 @@ class YouTubeNotifier(commands.Cog):
 
     async def get_new_videos(self):
         new_videos = []
-        for channel_id in config["monitored_youtube_channels"]:
+        for channel_id in config.get("monitored_youtube_channels", []):
             request = youtube.search().list(
                 part="snippet",
                 channelId=channel_id,
@@ -42,7 +42,7 @@ class YouTubeNotifier(commands.Cog):
     async def check_new_videos(self):
         new_videos = await self.get_new_videos()
         if new_videos:
-            notification_channel_id = config["youtube_notification_channel"]
+            notification_channel_id = config.get("youtube_notification_channel")
             if notification_channel_id:
                 channel = self.bot.get_channel(notification_channel_id)
                 for video in new_videos:
@@ -61,10 +61,8 @@ class TwitchNotifier(commands.Cog):
 
     async def get_new_streams(self):
         new_streams = []
-        headers = {
-            "Client-ID": config["twitch_client_id"]
-        }
-        for channel_name in config["monitored_twitch_channels"]:
+        headers = {"Client-ID": config.get("twitch_client_id")}
+        for channel_name in config.get("monitored_twitch_channels", []):
             response = requests.get(f"https://api.twitch.tv/helix/streams?user_login={channel_name}", headers=headers)
             data = response.json()
             if "data" in data and len(data["data"]) > 0:
@@ -75,7 +73,7 @@ class TwitchNotifier(commands.Cog):
     async def check_new_streams(self):
         new_streams = await self.get_new_streams()
         if new_streams:
-            notification_channel_id = config["twitch_notification_channel"]
+            notification_channel_id = config.get("twitch_notification_channel")
             if notification_channel_id:
                 channel = self.bot.get_channel(notification_channel_id)
                 for stream in new_streams:
