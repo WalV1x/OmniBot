@@ -1,5 +1,4 @@
 import json
-from datetime import timedelta
 
 import discord
 from discord.ext import commands

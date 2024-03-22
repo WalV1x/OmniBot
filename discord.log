@@ -1,17 +1,17 @@
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Logged in as OmniBot
-[2024-03-21 19:50:51] [INFO    ] discord_bot: discord.py API version: 2.3.2
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Python version: 3.12.2
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Running on: Windows 11 (nt)
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Loaded extension 'antispam'
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Loaded extension 'automated_messages'
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Loaded extension 'createTickets'
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Loaded extension 'helpers'
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Loaded extension 'lockChannel'
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Loaded extension 'logs'
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Loaded extension 'moderation'
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Loaded extension 'musicYoutube'
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Loaded extension 'socialAlert'
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Loaded extension 'socialNotifier'
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Loaded extension 'unlockChannel'
-[2024-03-21 19:50:51] [INFO    ] discord_bot: Loaded extension 'userinfo'
-[2024-03-21 19:51:08] [INFO    ] discord_bot: Executed create_ticket command in OmniSupport (ID: 1220320969663709365) by walvix (ID: 469851314801606666)
+[2024-03-22 14:04:31] [INFO    ] discord_bot: Logged in as OmniBot
+[2024-03-22 14:04:31] [INFO    ] discord_bot: discord.py API version: 2.3.2
+[2024-03-22 14:04:31] [INFO    ] discord_bot: Python version: 3.12.2
+[2024-03-22 14:04:31] [INFO    ] discord_bot: Running on: Windows 10 (nt)
+[2024-03-22 14:04:31] [INFO    ] discord_bot: Loaded extension 'antispam'
+[2024-03-22 14:04:31] [INFO    ] discord_bot: Loaded extension 'createTickets'
+[2024-03-22 14:04:31] [INFO    ] discord_bot: Loaded extension 'helpers'
+[2024-03-22 14:04:31] [INFO    ] discord_bot: Loaded extension 'logs'
+[2024-03-22 14:04:31] [INFO    ] discord_bot: Loaded extension 'manageChannel'
+[2024-03-22 14:04:31] [INFO    ] discord_bot: Loaded extension 'moderation'
+[2024-03-22 14:04:31] [INFO    ] discord_bot: Loaded extension 'musicYoutube'
+[2024-03-22 14:04:31] [INFO    ] discord_bot: Loaded extension 'socialAlert'
+[2024-03-22 14:04:32] [INFO    ] discord_bot: Loaded extension 'socialNotifier'
+[2024-03-22 14:04:32] [INFO    ] discord_bot: Loaded extension 'timerMessage'
+[2024-03-22 14:04:32] [INFO    ] discord_bot: Loaded extension 'userinfo'
+[2024-03-22 14:04:43] [INFO    ] discord_bot: Executed clear command in OmniSupport (ID: 1220320969663709365) by walvix (ID: 469851314801606666)
+[2024-03-22 14:04:44] [INFO    ] discord_bot: Executed log command in OmniSupport (ID: 1220320969663709365) by walvix (ID: 469851314801606666)

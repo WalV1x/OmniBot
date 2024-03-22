@@ -1,27 +1,14 @@
 {
     "prefix": "!",
-
     "youtube_api_key": "YOUR_YOUTUBE_CLIENT_ID",
     "twitch_client_id": "YOUR_TWITCH_CLIENT_ID",
-
     "monitored_youtube_channels": [],
     "monitored_twitch_channels": [],
     "youtube_notification_channel": null,
     "twitch_notification_channel": null,
-
     "timers_notification_channel": null,
     "timers": [],
-
-    "log_channel": 1219727570828787742,
+    "log_channel": 1220320970724737066,
     "locked_channels": [],
-
-    "muted_role": 1220316302996934658,
-
-    "ticket-counter": 0,
-    "ticket-react-message-id": 0,
-    "ticket-emoji": "🎟️",
-    "bot-role": "[🤖]bot[🤖]",
-    "ticket-support-roles":[],
-    "roles-to-mention":[],
-    "ticket-channel-ids":[]
+    "muted_role": 1220320969663709372
 }

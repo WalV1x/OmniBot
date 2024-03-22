@@ -1,27 +1,22 @@
 {
-  "content": null,
-  "embeds": [
+  "title": "**DEVELOPMENT**",
+  "color": 5814783,
+  "fields": [
     {
-      "title": "🛠️ **DEVELOPMENT** 🛠️",
-      "color": 5814783,
-      "fields": [
-        {
-          "name": "**🕒 Timers**",
-          "value": "• **Add**: Manage automated message timers. Add a new timer. ⏰\n• **Remove**: Manage automated message timers. Remove an existing timer. ❌\n• **List**: Manage automated message timers. List all active timers. 📋\n• **Set**: Manage automated message timers. Set/update an existing timer. 🔄"
-        },
-        {
-          "name": "**📺 YouTube**",
-          "value": "• **Add**: Add, remove, or set the notification channel for YouTube. Add a YouTube channel. ➕\n• **Remove**: Add, remove, or set the notification channel for YouTube. Remove a YouTube channel. ❌\n• **Set**: Add, remove, or set the notification channel for YouTube. Set the notification channel for YouTube. 🔔\n• **List**: Add, remove, or set the notification channel for YouTube. List monitored YouTube channels. 📋"
-        },
-        {
-          "name": "**📺 Twitch**",
-          "value": "• **Add**: Add, remove, or set the notification channel for Twitch. Add a Twitch channel. ➕\n• **Remove**: Add, remove, or set the notification channel for Twitch. Remove a Twitch channel. ❌\n• **Set**: Add, remove, or set the notification channel for Twitch. Set the notification channel for Twitch. 🔔\n• **List**: Add, remove, or set the notification channel for Twitch. List monitored Twitch channels. 📋"
-        },
-        {
-          "name": "**🎵 Music**",
-          "value": "• **Play** (aliases: p, ▶️): Play a selected song from YouTube 🎶\n• **Pause**: Pause the currently playing song ⏸️\n• **Resume** (aliases: r, ▶️): Resume playing with the Discord bot ▶️\n• **Skip** (aliases: s, ⏭️): Skip to the next song ⏭️\n• **Queue** (aliases: q, 📜): Display currently queued songs 📜\n• **Clear Queue** (aliases: c, bin, 🗑️): Stop the music and clear the queue 🗑️\n• **Stop** (aliases: disconnect, l, d, 🛑): Disconnect the bot from the voice channel 🛑\n• **Remove**: Remove the last song added to the queue ❌"
-        }
-      ]
+      "name": "**Timers**",
+      "value": "• **Add**: Manage automated message timers. Add a new timer.\n• **Remove**: Manage automated message timers. Remove an existing timer.\n• **List**: Manage automated message timers. List all active timers.\n• **Set**: Manage automated message timers. Set/update an existing timer."
+    },
+    {
+      "name": "**YouTube**",
+      "value": "• **Add**: Add, remove, or set the notification channel for YouTube. Add a YouTube channel.\n• **Remove**: Add, remove, or set the notification channel for YouTube. Remove a YouTube channel.\n• **Set**: Add, remove, or set the notification channel for YouTube. Set the notification channel for YouTube.\n• **List**: Add, remove, or set the notification channel for YouTube. List monitored YouTube channels."
+    },
+    {
+      "name": "**Twitch**",
+      "value": "• **Add**: Add, remove, or set the notification channel for Twitch. Add a Twitch channel.\n• **Remove**: Add, remove, or set the notification channel for Twitch. Remove a Twitch channel.\n• **Set**: Add, remove, or set the notification channel for Twitch. Set the notification channel for Twitch.\n• **List**: Add, remove, or set the notification channel for Twitch. List monitored Twitch channels."
+    },
+    {
+      "name": "**Music**",
+      "value": "• **Play** (aliases: p): Play a selected song from YouTube.\n• **Pause**: Pause the currently playing song.\n• **Resume** (aliases: r): Resume playing with the Discord bot.\n• **Skip** (aliases: s): Skip to the next song.\n• **Queue** (aliases: q): Display currently queued songs.\n• **Clear Queue** : Stop the music and clear the queue.\n• **Stop** (aliases: disconnect, l, d): Disconnect the bot from the voice channel.\n• **Remove**: Remove the last song added to the queue."
     }
   ]
 }

@@ -11,3 +11,22 @@ https://github.com/Darkempire78/Raid-Protect-Discord-Bot/blob/master/Cogs/setup.
 
 Tickets system :
 https://github.com/WebTheDev/TicketBot/tree/master
+https://ticketsbot.net/
+
+discord.ui.select(
+            placeholder="Select a category",
+            min_values=1,
+            max_values=1,
+            options=[
+                discord.SelectOption(
+                    label="General Support",
+                    description="Get a support about your issues",
+                    emoji="🛠️"
+                ),
+                discord.SelectOption(
+                    label="Bot issue",
+                    description="Report a bug in the bot",
+                    emoji="🎯"
+                )
+            ]
+        )

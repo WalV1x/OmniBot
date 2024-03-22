@@ -20,28 +20,48 @@ class Logs(commands.Cog, name="Logs"):
         with open('config.json', 'w') as f:
             json.dump(config, f, indent=4)
 
-    async def send_log_embed(self, content):
+    async def send_log_embed(self, content, icon_url=None):
         if self.log_channel_id:
             channel = self.bot.get_channel(self.log_channel_id)
-            embed = discord.Embed(title="Log", description=content, color=0x00ff00)
+            embed = discord.Embed(
+                title="Log",
+                description=content,
+                color=0x3DD5FA
+            )
+
+            if icon_url:
+                embed.set_footer(text="Omnibot - Logs Services",
+                                 icon_url="https://raw.githubusercontent.com/WalV1x/OmniBot/main/img/logo.jpeg")
+
             await channel.send(embed=embed)
 
     @commands.Cog.listener()
     async def on_member_join(self, member):
-        await self.send_log_embed(f'{member.mention} has joined the server.')
+        await self.send_log_embed(f'{member.mention} has joined the server.', icon_url=self.bot.user.avatar_url)
 
     @commands.Cog.listener()
     async def on_member_remove(self, member):
-        await self.send_log_embed(f'{member.name} has left the server.')
+        await self.send_log_embed(f'{member.name} has left the server.', icon_url=self.bot.user.avatar_url)
 
     @commands.Cog.listener()
     async def on_message_delete(self, message):
-        await self.send_log_embed(f'A message from {message.author.name} was deleted: {message.content}')
+        await self.send_log_embed(f'A message from {message.author.name} was deleted: {message.content}', icon_url=self.bot.user.avatar_url)
 
     @commands.Cog.listener()
     async def on_message_edit(self, before, after):
         await self.send_log_embed(
-            f'A message from {before.author.name} was edited: {before.content} -> {after.content}')
+            f'A message from {before.author.name} was edited: {before.content} -> {after.content}', icon_url=self.bot.user.avatar_url)
+
+    @commands.Cog.listener()
+    async def on_member_update(self, before, after):
+        added_roles = set(after.roles) - set(before.roles)
+        removed_roles = set(before.roles) - set(after.roles)
+        if added_roles:
+            await self.send_log_embed(
+                f'{after.name} has been given the following roles: {", ".join([role.name for role in added_roles])}.')
+        if removed_roles:
+            await self.send_log_embed(
+                f'{after.name} has had the following roles removed: {", ".join([role.name for role in removed_roles])}.')
 
     @commands.Cog.listener()
     async def on_member_update(self, before, after):
@@ -67,11 +87,24 @@ class Logs(commands.Cog, name="Logs"):
         if before.name != after.name:
             await self.send_log_embed(f'The channel {before.name} has been renamed to {after.name}.')
 
-    @commands.group(name="log")
+    @commands.group(name="log", aliases=["Log", "logs", "Logs"],
+                    brief="Log command")
+    @commands.has_permissions(manage_messages=True)
     async def log(self, ctx):
-        pass
+        if ctx.invoked_subcommand is None:
+            embed = discord.Embed(title="Log Commands", description="List of available log commands", color=0x00ff00)
+            embed.add_field(name="🛠️ Setup", value="Setup the log channel", inline=False)
+            embed.add_field(name="❌ Remove", value="Remove the log channel", inline=False)
+            embed.set_footer(text="Omnibot - Logs Services",
+                             icon_url="https://raw.githubusercontent.com/WalV1x/OmniBot/main/img/logo.jpeg")
 
-    @log.command(name="set", aliases=["s"])
+            await ctx.send(embed=embed)
+        else:
+            await ctx.send_help(ctx.command)
+
+    @log.command(name="setup", aliases=["Setup"],
+                 brief="Setup the log channel")
+    @commands.has_permissions(manage_messages=True)
     async def log_set(self, ctx, channel_mention: str):
         channel_id_match = re.match(r"<#(\d+)>", channel_mention)
         if channel_id_match:
@@ -85,7 +118,9 @@ class Logs(commands.Cog, name="Logs"):
         else:
             await ctx.send("Invalid channel mention. Please mention a valid channel.")
 
-    @log.command(name="remove", aliases=["r"])
+    @log.command(name="remove", aliases=["Remove"],
+                 brief="Remove the log channel")
+    @commands.has_permissions(manage_messages=True)
     async def log_remove(self, ctx):
         config_data = self.load_config()
         if 'log_channel' in config_data:

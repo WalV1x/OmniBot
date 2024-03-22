@@ -1,0 +1,6 @@
+Clonage de canal : Permet de créer une copie exacte d'un canal existant dans le serveur Discord.
+Statistiques du canal : Permet d'afficher des statistiques sur l'utilisation d'un canal spécifique.
+Modification de canal : Permet de modifier les paramètres d'un canal existant, tels que le nom, la description, les autorisations, etc.
+Suppression de canal : Permet de supprimer un canal existant dans le serveur Discord.
+Création de canal : Permet de créer un nouveau canal dans le serveur Discord.
+Liste des canaux : Affiche une liste de tous les canaux présents sur le serveur Discord.
